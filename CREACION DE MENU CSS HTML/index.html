@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>IPS SERVIMEDICO S.A.S</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="tb-menu"><span class="icon-menu"></span>Menu</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a herf="#"><span class="icon-Inicio"></span>Inicio</a></li>
+				<li class="submenu">
+					<a herf="#"><span class="icon-Nosotros"></span>Nosotros<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="#">Historia <span class="icon-dot"></span></a></li>
+						<li><a href="#">Mision <span class="icon-dot"></span></a></li>
+						<li><a href="#">Vision<span class="icon-dot"></span></a></li>
+						<li><a href="#">Politica de Calidad<span class="icon-dot"></span></a></li>
+						<li><a href="#">Organigrama<span class="icon-dot"></span></a></li>
+						<li><a href="#">Principios Basicos<span class="icon-dot"></span></a></li>
+					</ul>
+
+				</li>
+				<li><a herf="#"><span class="icon-Servicios"></span>Servicios</a></li>
+
+				<li class="submenu">
+				<a herf="#"><span class="icon-Sucursales"></span>Sucursales<span class="caret icon-arrow-down6"></span></a>
+				<ul class="children">
+						<li><a href="#">Quibdo ( sede Principal) <span class="icon-dot"></span></a></li>
+						<li><a href="#">Bojaya<span class="icon-dot"></span></a></li>
+						<li><a href="#">Carmen del darien<span class="icon-dot"></span></a></li>
+						<li><a href="#">Riosucio<span class="icon-dot"></span></a></li>
+						<li><a href="#">Belen de Bajira<span class="icon-dot"></span></a></li>
+						<li><a href="#">Unguia<span class="icon-dot"></span></a></li>
+						<li><a href="#">Acandi<span class="icon-dot"></span></a></li>
+					</ul>
+
+				</li>
+
+
+				<li><a herf="#"><span class="icon-Estados-Financieros"></span>Estados Financieros</a></li>
+				<li><a herf="#"><span class="icon-Contacto"></span>Contacto</a></li>
+
+
+
+			</ul>
+		
+		</nav>
+
+		<div class="main">
+			
+			<div class="slides">
+				<img src="img/1.jpg" alt="">
+				<img src="img/2.jpg" alt="">
+				<img src="img/3.jpg" alt="">
+				<img src="img/4.jpg" alt="">
+				<img src="img/5.jpg" alt="">
+				<img src="img/6.jpg" alt="">
+				<img src="img/7.jpg" alt="">
+			</div>
+		</div>
+	
+
+
+
+
+
+
+
+	</header>
+
+	<section>
+		<p>Somos una institucion prestadora de servicios en salud, orientada a contribuir en el mejoramiento de la calidad de vida de nuestros usuarios, que cuenta con profesionales idoneos y comprometidos, que trabajan de manera continua con eficiencia, responsabilidad y calidez humana, ofreciendo asi, un alto sentido de responsabilidad social.</p>
+
+		<p>Nos vemos posicionadas en el 2020 como una IPS lider en primer nivel, reconocida por sus altos estandares de calidad, excelencia en la atencion, grandes profesionales trabajando en equipo, y con una infraestructura que brinde un ambiente agradable, que satisfaga las expectativas de nuestros clientes y de esta manera aportar nuestro granito de arena para que esta sociedad cada día sea mejor.</p>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>    
+	<script src="menu.js"></script>   
+	<script src="js/jquery.slides.js"></script>
+	<script>
+
+	 $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+      effect: "slide",
+     
+      interval: 3000,
+ 
+      auto: true,
+      
+      swap: true,
+       
+      pauseOnHover: false,
+      
+      restartDelay: 2500
+
+    }
+  });
+});
+
+  </script>
+
+</body>
+</html>
